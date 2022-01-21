@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+  <title>Devin</title>
+</head>
+
+<body>
+    <div class="container">
+      <h1>Commencer le jeu</h1>
+     
+    
+    <p>Entrez votre proposition</p>
+    <input placeholder="saisissez un nombre" [(ngModel)]="NumSaisi" name="NumSaisi">
+    <button (click)="clicButton()">Essayez</button>
+    <p>{{message}}</p>
+    <p>Nombre des essai: {{essai}}</p>
+  </div>
+</body>
